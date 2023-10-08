@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR University</title>
+    <style>
+.footer{
+margin-bottom:1px;
+}
+.menus{
+margin-top:1px;
+}
+ul {
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color:#333;
+}
+li {
+   float:left;
+}
+li a{
+   display:block;
+   color:white;
+   text-align:center;
+   padding:14px 16px;
+   text-decoration:none;
+}
+
+li.dropdown{
+   display:inline-block;
+}
+.dropdown-content{
+   display:none;
+   position:absolute;
+   background-color:#f9f9f9;
+   min-width:160px;
+   box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index:1;
+}
+.dropdown-content a{
+   color:black;
+   padding:12px 16px;
+   text-decoration:none;
+   display:block;
+   text-align:left;
+}
+.dropdown-content a:hover
+{background-color:red;}  
+.dropdown:hover .dropdown-content{
+   display:block;
+}
+
+li a:hover, .dropdown:hover .dropbtn,{
+background-color:red;
+}
+
+#labels,#inputs{
+font-size:15pt;
+width:250px;
+}
+table{
+margin:50px;
+}
+td, th{
+vertical-align:top;
+padding:15px;
+}
+#btn {
+color: white;
+background-color:blue;
+border-radius: 10px;
+height: 50px;
+width: 250px;
+font-size: 12pt;
+}
+		.flex-container {
+  display: flex;
+  justify-content: center; 
+ align-items: left;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue; 
+  color: black;
+  width: 360px;
+  margin: 10px;
+  text-align: left;
+  line-height: 60px;
+  font-size: 23px;
+}
+.flex-container > div:nth-child(1) {
+  background-color: DodgerBlue;
+}
+
+.flex-container > div:nth-child(2) {
+  background-color: green;
+}
+
+.flex-container > div:nth-child(3) {
+  background-color: yellow; 
+}
+
+.flex-container > div:nth-child(4) {
+  background-color: Red; 
+}
+.student-info-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.student-image
+        {
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+.red-text{
+color:red;
+}
+.green-text{
+color:green;
+}
+.orange-text{
+color:orange;
+}
+    </style>
+    <link rel="icon" href="../index_files/favicon.ico" type="image/x-icon" />
+</head>
+<html>
+<body>
+<div class="header">
+<img src="https://sraap.in/student/h1.png" width=100%>
+</div>
+  <ul>
+        <li class="dropdown">
+            <a class="drpbtn" href="index.html">HOME</a>
+        </li>
+        <li class="dropdown">
+            <a class="drpbtn" href="#About">Academic Details</a>
+            <div class="dropdown-content">
+                <a href="#regulations">View academic registrations</a>
+                <a href="#calender">View academic calendar</a>
+                <a href="#syllabus">View syllabus</a>
+                <a href="#mastertt">View master timetable</a>
+                <a href="#holidays">List of holidays/list of working days</a>
+                <a href="#circulars">View circulars</a>
+            </div>
+        </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#Courses-Offered">Courses Registration</a>
+                    <div class="dropdown-content">
+                        <a href="#register">Register</a>
+                        <a href="#cs">View CS status</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#Attendance">Attendance</a>
+                    <div class="dropdown-content">
+                        <a href="#day">Day-wise Report</a>
+                        <a href="#month">Month-wise Report</a>
+                        <a href="#subject">Subject-wise Report</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="drpbtn" href="#fee">Fee Payment</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#internals">Internals</a>
+                    <div class="dropdown-content">
+                        <a href="#internalmrk">View internal marks(T&P)</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#feedback">Feedback</a>
+                    <div class="dropdown-content">
+                        <a href="#feedback">Submit Feedback</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#grievance">Grievance</a>
+                    <div class="dropdown-content">
+                        <a href="#submitgrievance">Submit Grievance</a>
+                        <a href="#status">Grievance status</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+    <a class="drpbtn" href="#password">Change Password</a>
+</li>
+<li class="dropdown">
+    <a class="drpbtn" href="#visitus">Visit Us</a>
+</li>
+		</ul>
+<marquee direction = "right"><h1 class="red-text" align="center">WELCOME TO  SR UNIVERSITY<h1></marquee>
+<div>
+<center>
+<img align="left" src="info.png" alt="image" width="970" height="250"><br>
+<img class="student-image" src="sruprtl.jpg" alt="image" width="300" height="300">
+</center>
+</div>
+<h1 align="center" class="green-text"><b>TIMETABLES AVAILABLE</h1></b>
+<h2>LOGIN USING YOUR CREDENTIALS OR YOU CAN DOWNLOAD YOUR TIMETABLE USING BELOW LINK</h2>
+<h3 class="red-text">TimeTables For Students Of I-SEM(1ST YEAR'S-CSE,CSE-AIML,CSE-DS&CS,ECE,EEE,CE,ME,BBA)</h3>
+<h3><a href="#1stsem">Check your Timetable now!</a></h3>
+<h3 class="green-text">TimeTables For Students Of II-SEM(1ST YEAR'S-CSE,CSE-AIML,CSE-DS&CS,ECE,EEE,CE,ME,BBA)</h3>
+<h3><a href="#2ndsem">Check your Timetable now!</a></h3>
+<h3 class="orange-text">TimeTables For Students Of III-SEM(2ND YEAR'S-CSE,CSE-AIML,CSE-DS&CS)</h3>
+<h3><a href="timtble.html">Check your Timetable now!</a></h3>
+<h2> INNOVATIVE  CURRICULUM FOR THE NEXT GENERATION GRADUATES</h2>
+<p>SR University approaches education with a modern mindset. Along with academic excellence, our curriculum gives students a taste of the real world; with enriching, innovative entrepreneurial learnings. Each course offered here facilitates out-of-the-box thinking and application of theoretical concepts to real world challenges. Inter-Disciplinary learning ensures that our students gain knowledge and perspective over multiple subjects. SR University innovative curriculum is designed based on four core values.</p>
+<center>
+<img align="center" src="sru.png" alt="image" width="300" height="300">
+</center>
+<div>
+<img src="lastinfo.png" alt="image" width="1450" height="300">
+</div>
+</body>
+</html>
